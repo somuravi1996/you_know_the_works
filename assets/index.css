@@ -1,0 +1,97 @@
+body {
+    background-color: #ffabb2;
+}
+
+h1 {
+    color: #2a2a63;
+}
+
+/* underline 2a2a63  */
+/* textcolor'#2A3570  */
+/* p #683070 */
+p {
+    color: #683070;
+    font-weight: 500;
+}
+
+.icon {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon svg{
+    fill: #474476;
+}
+.icon h6{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.circle-border {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #474476;
+    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.circle-border-icons {
+    width: 70px;
+    height: 70px;
+    /* background-color: #2a2a63; */
+
+    background-color: #404073;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.circle-border-icons svg {
+    fill: rgba(255, 161, 169, 255);
+    padding: 3px;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.border-left {
+    border-left: 3px solid #2a2a63 !important;
+}
+
+.bottom-line {
+    border: 2px solid #2a2a63;
+    margin: 0px;
+}
+
+.company-name {
+    color: #404073;
+    font-size: 400;
+    font-size: 18px;
+}
+
+.work-description {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.items p {
+    text-align: right !important;
+}
+
+@media(max-width:768px){
+    .profile-name {
+        font-weight: bold;
+        font-size: 40px;
+    }  
+}
